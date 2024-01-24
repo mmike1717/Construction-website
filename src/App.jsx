@@ -1,14 +1,24 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { Route, Routes } from 'react-router';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import NavBar from './components/NavBar/navBar';
 import './App.css'
+import HomePage from './components/HomePage/homePage';
 
 function App() {
-  const [count, setCount] = useState(0)
+
+
 
   return (
     <>
-      <div>
+      <NavBar/>
+
+      <Routes>
+        <Route exact path='/' element={<HomePage/>}></Route>
+      </Routes>
+
+      {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -27,7 +37,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
     </>
   )
 }
