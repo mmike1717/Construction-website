@@ -13,6 +13,7 @@ import kitchenPic2 from '../../assets/kitchen02.jpg'
 import WelcomeSection from './welcomeSection'
 import './homePage.css'
 import Carousel from './carouselSection'
+import Footer from '../Footer/footer'
 
 
 export default function HomePage(){
@@ -77,6 +78,8 @@ export default function HomePage(){
                     </div>
                 </div>
             </div>
+
+            <Footer />
 
 
         </>

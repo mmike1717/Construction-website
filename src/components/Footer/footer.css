@@ -1,0 +1,53 @@
+
+
+
+.MainDivHoldingFooter{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+
+.LogoAndParaForFooter{
+    display: flex;
+    width: 33%;
+    font-family: serif;
+    font-size: large;
+}
+
+.DescriptionForLogoInFooter{
+    margin: 5%;
+}
+
+
+
+.MainDivForFooterIcons{
+    height: 200px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    justify-content: center;
+    border-right-style: ridge;
+    border-left: ridge;
+}
+
+.DivHoldingIconInfo{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 15px;
+    width: 69%;
+}
+
+
+.InfoIconsForFooter{
+    width: 17px;
+}
+
+
+.RightsReserved{
+    background-color: black;
+    color: white;
+}
