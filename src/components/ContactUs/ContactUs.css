@@ -1,0 +1,34 @@
+
+
+
+#MainDivForContactUs{
+    height: 700px;
+    width: 100%;
+}
+
+
+.ContactUsPic{
+    width: 100%;
+    height: 100%;
+    /* filter: brightness(0.8); */
+    filter: hue-rotate(139deg) brightness(1) contrast(2);
+}
+
+
+.CenterDivForEstimate{
+    position: absolute;
+    top: 20%;
+    left: 16%;
+    height: 60%;
+    width: 70%;
+}
+
+
+.CenterDivPic{
+    position: absolute;
+    /* top: 20%; */
+    left: 0;
+    height: 100%;
+    width: 100%;
+    filter: brightness(0.7);
+}

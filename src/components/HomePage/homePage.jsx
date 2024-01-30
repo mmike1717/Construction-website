@@ -14,6 +14,7 @@ import WelcomeSection from './welcomeSection'
 import './homePage.css'
 import Carousel from './carouselSection'
 import Footer from '../Footer/footer'
+import ContactUs from '../ContactUs/ContactUsSection'
 
 
 export default function HomePage(){
@@ -33,8 +34,8 @@ export default function HomePage(){
                     <h1>Construction: Residential and Renovation</h1>
                     <h2 className='getFreeQuoteTitle'>Get a Free Quote Now {'>'}</h2>
                 </div>
-                <img className='firstImage' alt='pic' src={housePic}/>
             </div>
+            <img className='firstImage' alt='pic' src={housePic}/>
 
             <div className='divHoldingSecImage'>
                 <img className='secondImage' src={kitchenPic}/>
@@ -78,6 +79,8 @@ export default function HomePage(){
                     </div>
                 </div>
             </div>
+
+            <ContactUs />
 
             <Footer />
 
