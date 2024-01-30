@@ -12,7 +12,7 @@ export default function ContactUs(){
                 <img className='ContactUsPic' src={designPic}></img>
                 <div className='CenterDivForEstimate'>
                     <img className='CenterDivPic' src={designPic}></img>
-                    <div>Don't Wait, Get Your Free Estimate</div>
+                    <div className='FreeEstimateTitle'>Don't Wait, Get Your Free Estimate</div>
                     <div>Lets Make Your Vision A Reality</div>
                 </div>
             </div>
