@@ -44,3 +44,46 @@
     font-weight: bold;
     color: white;
 }
+
+.VisionARealityTitle{
+    position: absolute;
+    top: 34%;
+    left: 26%;
+    font-size: 33px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.MainDivForContactUsInfo{
+    position: absolute;
+    top: 55%;
+    left: 41%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+    row-gap: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.IconsForContactUs{
+    width: 30px;
+    filter: invert(1);
+    margin-right: 10px;
+}
+
+
+.IconsForContactUs1{
+    width: 33px;
+    filter: invert(1);
+    margin-right: 10px;
+}
+
+
+.DivHoldingIconAndInfo{
+    display: flex;
+    align-items: center;
+}
