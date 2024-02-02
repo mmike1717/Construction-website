@@ -1,0 +1,25 @@
+
+
+.FirstSectionofAboutUs{
+    position: relative;
+    height: 535px;
+}
+
+
+.SunsetImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.LearmMoreAboutUs{
+    position: absolute;
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    top: 35%;
+    left: 7%;
+}
