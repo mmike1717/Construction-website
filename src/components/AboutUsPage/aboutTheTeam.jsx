@@ -6,9 +6,9 @@ export default function TheTeam (){
 
     return (
         <>
-            <div>
-                <div>
-                    <h1>Our Team</h1>
+            <div id='AboutTeamMainDiv'>
+                <div className='TeamHeadingAndDescription'>
+                    <h1>Our Team:</h1>
                     <div></div>
                 </div>
                 <img src={team}></img>

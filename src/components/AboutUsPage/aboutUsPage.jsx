@@ -1,5 +1,7 @@
 
 import sunset from '../../assets/sunset.jpg'
+import ContactUs from '../ContactUs/ContactUsSection'
+import Footer from '../Footer/footer'
 import GeneralServices from '../Services/generalServices'
 import TheTeam from './aboutTheTeam'
 import './aboutUs.css'
@@ -19,6 +21,11 @@ export default function AboutUs(){
                 <TheTeam />
 
                 <GeneralServices />
+
+                <ContactUs />
+
+                <Footer />
+
 
             </div>
         </>
