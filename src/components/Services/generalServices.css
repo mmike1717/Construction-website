@@ -14,17 +14,24 @@
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
-    max-width: 1194px;
+    max-width: 1300px;
     font-size: 28px;
     margin: 0 auto;
+    row-gap: 30px;
 }
 
 
 .EachService{
-    width: 300px;
+    width: 372px;
+    margin: 0px 14px;
 }
 
 
 .EachService > img {
-    width: 70px;
+    width: 50px
+}
+
+
+.DetailOfEachService{
+    font-size: 17px;
 }
