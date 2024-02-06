@@ -1,5 +1,5 @@
 
-import sunset from '../../assets/sunset.jpg'
+import sunset from '../../assets/kitchen06.jpg'
 import ContactUs from '../ContactUs/ContactUsSection'
 import Footer from '../Footer/footer'
 import GeneralServices from '../Services/generalServices'

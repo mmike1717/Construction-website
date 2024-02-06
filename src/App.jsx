@@ -6,6 +6,7 @@ import NavBar from './components/NavBar/navBar';
 import './App.css'
 import HomePage from './components/HomePage/homePage';
 import AboutUs from './components/AboutUsPage/aboutUsPage';
+import ContactPage from './components/ContactUs/ContactPage';
 
 function App() {
 
@@ -19,6 +20,9 @@ function App() {
         <Route exact path='/' element={<HomePage/>}></Route>
 
         <Route exact path='/AboutUs' element={<AboutUs/>}></Route>
+
+        <Route exact path='/Contact' element={<ContactPage/>}></Route>
+
       </Routes>
 
       {/* <div>

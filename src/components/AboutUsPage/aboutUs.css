@@ -12,6 +12,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    filter: brightness(0.5)
 }
 
 
@@ -44,11 +45,19 @@
 .TeamHeadingAndDescription{
     display: flex;
     max-width: 800px;
-    width: 30%;
+    width: 40%;
     flex-direction: column;
 }
 
 
 .TeamHeadingAndDescription > h1{
     display: flex;
+}
+
+
+.TeamDescriptionPara{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 17px;
 }
