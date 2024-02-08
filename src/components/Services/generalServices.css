@@ -8,6 +8,10 @@
     margin-bottom: 40px;
 }
 
+.GeneralServicesTitle{
+    text-decoration: underline;
+}
+
 
 .DivHoldingListOfServices{
     display: flex;

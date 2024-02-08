@@ -12,7 +12,7 @@ export default function GeneralServices (){
     return(
         <>
             <div id="MainDivForGeneralServices">
-                <h1>Our Services</h1>
+                <h1 className='GeneralServicesTitle'>Our Services</h1>
                 <div className="DivHoldingListOfServices">
                     <div className="EachService">
                         <img src={screwDriverWrench}></img>

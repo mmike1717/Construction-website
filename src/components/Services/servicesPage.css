@@ -19,4 +19,44 @@
 
 .ServicesMainTitle{
     position: absolute;
+    top: 40%;
+    left: 5%;
+    font-weight: bold;
+    font-size: 70px;
+    color: white;
+}
+
+
+
+#MainDivForOtherServices{
+    display: flex;
+    height: 450px;
+    position: relative;
+    /* margin: 100px 0; */
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.OtherServicesTitle{
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+
+.AllOfOtherServices{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: large;
+    height: 71%;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    row-gap: 15px;
+}
+
+
+.OtherServices{
+    width: 300px;
+
 }
