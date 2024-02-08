@@ -7,6 +7,7 @@ import './App.css'
 import HomePage from './components/HomePage/homePage';
 import AboutUs from './components/AboutUsPage/aboutUsPage';
 import ContactPage from './components/ContactUs/ContactPage';
+import ServicesPage from './components/Services/ServicesPage';
 
 function App() {
 
@@ -22,6 +23,9 @@ function App() {
         <Route exact path='/AboutUs' element={<AboutUs/>}></Route>
 
         <Route exact path='/Contact' element={<ContactPage/>}></Route>
+
+        <Route exact path='/Services' element={<ServicesPage/>}></Route>
+
 
       </Routes>
 

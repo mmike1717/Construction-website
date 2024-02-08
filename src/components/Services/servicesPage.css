@@ -1,0 +1,22 @@
+
+
+.ServicesTitleAndPic{
+    height: 650px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.ServicesTitleAndPic > img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.ServicesMainTitle{
+    position: absolute;
+}
