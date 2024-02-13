@@ -1,5 +1,5 @@
 
-import housePic from '../../assets/bergen-county-new-jersey.jpg'
+import housePic from '../../assets/kitchen00.jpg'
 import kitchenPic from '../../assets/kitchen01.jpg'
 import fastTruck from '../../assets/truck-fast-solid.svg'
 import handshake from '../../assets/handshake.svg'
