@@ -30,33 +30,33 @@
 
 #MainDivForOtherServices{
     display: flex;
-    height: 450px;
-    position: relative;
-    /* margin: 100px 0; */
-    flex-direction: column;
     margin-bottom: 40px;
+    flex-direction: column;
 }
 
 .OtherServicesTitle{
-    font-size: 40px;
-    margin-bottom: 30px;
+    font-size: 47px;
+    margin-bottom: 45px;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 
 .AllOfOtherServices{
     display: flex;
     flex-wrap: wrap;
-    font-size: large;
-    height: 71%;
+    font-size: 23px;
+    height: 400px;
     width: 100%;
     flex-direction: column;
-    align-content: center;
     row-gap: 15px;
+    column-gap: 50px;
+    /* margin: 0 0%; */
+    align-content: center;
 }
 
 
 .OtherServices{
-    width: 300px;
+    width: fit-content;
 
 }
