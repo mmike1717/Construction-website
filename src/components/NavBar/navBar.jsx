@@ -7,10 +7,10 @@ export default function NavBar(){
         <div id='MainNavBar'>
             <div id='LogoDiv'>logo</div>
             <div id="NavCenterDiv">
-                <div>Home</div>
-                <div>About Us</div>
-                <div>Our Services</div>
-                <div>Contact Us</div>
+                <a href='/'>Home</a>
+                <a href='/AboutUs'>About Us</a>
+                <a href='/Services'>Our Services</a>
+                <a href='/Contact'>Contact Us</a>
             </div>
             <div id='PhoneNumDiv'>Phone #</div>
         </div>

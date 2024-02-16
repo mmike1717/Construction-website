@@ -10,6 +10,7 @@ import bathPic1 from '../../assets/bathroom01.jpg'
 import bathPic2 from '../../assets/bathroom02.jpg'
 import kitchenPic1 from '../../assets/kitchen01.jpg'
 import kitchenPic2 from '../../assets/kitchen02.jpg'
+import arrow from '../../assets/arrow-right.svg'
 import WelcomeSection from './welcomeSection'
 import './homePage.css'
 import Carousel from './carouselSection'
@@ -32,7 +33,7 @@ export default function HomePage(){
             <div className='divHoldingFirstImage' >
                 <div className='divHoldingTitleForFirstImage'>
                     <h1>Construction: Residential and Renovation</h1>
-                    <h2 className='getFreeQuoteTitle'>Get a Free Quote Now {'>'}</h2>
+                    <a href='/Contact' className='getFreeQuoteTitle'>Get a Free Quote Now <img className='arrowImage' src={arrow}></img></a>
                 </div>
             </div>
             <img className='firstImage' alt='pic' src={housePic}/>
