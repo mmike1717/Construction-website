@@ -25,6 +25,10 @@
     align-items: center;
 }
 
+.divHoldingTitleForFirstImage > h1 {
+    margin: 5%;
+}
+
 
 .getFreeQuoteTitle{
     display: flex;
@@ -188,6 +192,7 @@
 .DivHoldingWelPic{
     overflow: hidden;
     width: 50%;
+    background-color: white;
 }
 
 
