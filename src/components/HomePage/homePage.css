@@ -79,6 +79,9 @@
 }
 
 .Box1ofSecPic{
+    width: 20%;
+    /* height: 15%; */
+    display: flex;
     position: absolute;
     font-size: 1.9rem;
     color: black;
@@ -86,23 +89,35 @@
     font-family: serif;
     top: 26%;
     left: 10%;
+    flex-direction: column;
+    align-items: center;
 }
 
 .ServiceIcons{
-    width: 100px;
+    width: 40%;
 }
 
 .Box2ofSecPic{
+    width: 20%;
+    /* height: 15%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
     font-size: 1.7rem;
     color: black;
     font-weight: bold;
     font-family: serif;
-    top: 24%;
+    top: 25%;
     left: 38%;
 }
 
 .Box3ofSecPic{
+    width: 20%;
+    /* height: 15%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
     font-size: 1.7rem;
     color: black;
@@ -112,6 +127,11 @@
     left: 68%;
 }
 .Box4ofSecPic{
+    width: 20%;
+    /* height: 15%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
     font-size: 1.7rem;
     color: black;
@@ -122,6 +142,11 @@
 }
 
 .Box5ofSecPic{
+    width: 20%;
+    /* height: 15%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
     font-size: 1.7rem;
     color: black;
