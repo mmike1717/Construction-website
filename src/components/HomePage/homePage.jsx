@@ -61,7 +61,7 @@ export default function HomePage(){
                 </div>
 
                 <div className='Box5ofSecPic'>
-                    <img className='ServiceIcons' src={thumbup}></img>
+                    <img className='ServiceIcons2' src={thumbup}></img>
                     <div>Satisfaction Guaranteed</div>
                 </div>
 
