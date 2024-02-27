@@ -6,7 +6,7 @@
     width: 100%;
     position: fixed;
     filter: brightness(0.5);
-    top: -30%;
+    top: -24%;
     z-index: -1;
 }
 
@@ -285,3 +285,37 @@
   button.next {
     right: 0;
   }
+
+
+@media screen and (min-width: 2500px) and (max-width: 3500px){
+    .divHoldingFirstImage{
+        height: 1000px;
+    }
+
+    #MainDivForWelcomeSection{
+        height: 1200px;
+    }
+
+    .MainDivHoldingGallery{
+        height: 1200px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 3600px){
+    .divHoldingFirstImage{
+        height: 1500px;
+    }
+
+    #MainDivForWelcomeSection{
+        height: 1700px;
+    }
+
+    .MainDivHoldingGallery{
+        height: 1700px;
+    }
+
+
+}

@@ -92,3 +92,20 @@
     justify-content: flex-start;
     width: 200px;
 }
+
+
+
+@media screen and (min-width: 2500px) and (max-width: 3500px){
+
+    #MainDivForContactUs{
+        height: 1200px;
+    }
+}
+
+
+@media screen and (min-width: 3600px){
+
+    #MainDivForContactUs{
+        height: 1500px;
+    }
+}
