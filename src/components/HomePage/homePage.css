@@ -287,7 +287,7 @@
   }
 
 
-@media screen and (min-width: 2500px) and (max-width: 3500px){
+@media screen and (min-width: 2500px) and (max-width: 3000px){
     .divHoldingFirstImage{
         height: 1000px;
     }
@@ -300,11 +300,23 @@
         height: 1200px;
     }
 
+    .divHoldingTitleForFirstImage > h1 {
+        font-size: 80px;
+    }
+
+    .getFreeQuoteTitle{
+        font-size: 54px;
+    }
+
+    .EachServiceTitle {
+        font-size: 50px;
+    }
+
 
 }
 
 
-@media screen and (min-width: 3600px){
+@media screen and (min-width: 3001px){
     .divHoldingFirstImage{
         height: 1500px;
     }
@@ -315,6 +327,18 @@
 
     .MainDivHoldingGallery{
         height: 1700px;
+    }
+
+    .divHoldingTitleForFirstImage > h1 {
+        font-size: 100px;
+    }
+
+    .getFreeQuoteTitle{
+        font-size: 64px;
+    }
+
+    .EachServiceTitle {
+        font-size: 80px;
     }
 
 

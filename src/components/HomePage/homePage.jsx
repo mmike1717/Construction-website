@@ -42,27 +42,27 @@ export default function HomePage(){
                 <img className='secondImage' src={kitchenPic}/>
                 <div className='Box1ofSecPic'>
                     <img className='ServiceIcons' src={fastTruck}></img>
-                    <div>Quick Response</div>
+                    <div className='EachServiceTitle'>Quick Response</div>
                 </div>
 
                 <div className='Box2ofSecPic'>
                     <img className='ServiceIcons' src={quality}></img>
-                    <div>Quality Workmanship</div>
+                    <div className='EachServiceTitle'>Quality Workmanship</div>
                 </div>
 
                 <div className='Box3ofSecPic'>
                     <img className='ServiceIcons' src={handshake}></img>
-                    <div>Excellent Customer Service</div>
+                    <div className='EachServiceTitle'>Excellent Customer Service</div>
                 </div>
 
                 <div className='Box4ofSecPic'>
                     <img className='ServiceIcons' src={service}></img>
-                    <div>Personalized Service</div>
+                    <div className='EachServiceTitle'>Personalized Service</div>
                 </div>
 
                 <div className='Box5ofSecPic'>
                     <img className='ServiceIcons2' src={thumbup}></img>
-                    <div>Satisfaction Guaranteed</div>
+                    <div className='EachServiceTitle'>Satisfaction Guaranteed</div>
                 </div>
 
             </div>
