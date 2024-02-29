@@ -52,3 +52,38 @@
     background-color: black;
     color: white;
 }
+
+
+@media screen and (min-width: 2500px) and (max-width: 3000px){
+    .MainDivHoldingFooter{
+        height: 400px;
+    }
+
+    .LogoAndParaForFooter{
+        font-size: 27px;
+    }
+
+    .MainDivForFooterIcons{
+        height: 400px;
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (min-width: 3001px) {
+    .MainDivHoldingFooter{
+        height: 600px;
+    }
+
+    .LogoAndParaForFooter{
+        font-size: 30px;
+    }
+
+    .MainDivForFooterIcons{
+        height: 400px;
+    }
+
+    .DivHoldingIconInfo{
+        font-size: 40px;
+    }
+}

@@ -100,12 +100,58 @@
     #MainDivForContactUs{
         height: 1200px;
     }
+
+    .FreeEstimateTitle{
+        font-size: 70px;
+    }
+
+    .VisionARealityTitle{
+        font-size: 58px;
+    }
+
+    .MainDivForContactUsInfo{
+        font-size: 40px;
+    }
+
+    .DivHoldingIconAndInfo{
+        width: 430px;
+    }
+
+    .IconsForContactUs{
+        margin-right: 30px;
+    }
 }
 
 
-@media screen and (min-width: 3600px){
+@media screen and (min-width: 3501px){
 
     #MainDivForContactUs{
         height: 1500px;
+    }
+
+    .FreeEstimateTitle{
+        font-size: 90px;
+    }
+
+    .VisionARealityTitle{
+        font-size: 78px;
+    }
+
+    .MainDivForContactUsInfo{
+        font-size: 60px;
+    }
+
+    .DivHoldingIconAndInfo{
+        width: 640px;
+    }
+
+    .IconsForContactUs1 {
+        width: 53px;
+        margin-right: 40px;
+    }
+
+    .IconsForContactUs {
+        width: 50px;
+        margin-right: 40px;
     }
 }
