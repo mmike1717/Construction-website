@@ -312,6 +312,14 @@
         font-size: 50px;
     }
 
+    .IntroParagraphs{
+        font-size: x-large;
+    }
+
+    .GalleryParagraph{
+        font-size: xx-large;
+    }
+
 
 }
 
@@ -339,6 +347,14 @@
 
     .EachServiceTitle {
         font-size: 80px;
+    }
+
+    .IntroParagraphs{
+        font-size: xx-large;
+    }
+
+    .GalleryParagraph{
+        font-size: 35px;
     }
 
 
