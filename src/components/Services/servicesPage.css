@@ -60,3 +60,33 @@
     width: fit-content;
 
 }
+
+
+@media screen and (min-width: 2500px) and (max-width: 3500px){
+    .OtherServicesTitle{
+        font-size: 67px;
+    }
+
+    .AllOfOtherServices{
+        font-size: 37px;
+        height: 700px;
+    }
+}
+
+
+@media screen and (min-width: 3501px) {
+    #MainDivForOtherServices{
+        margin-bottom: 100px;
+    }
+
+    .OtherServicesTitle{
+        font-size: 100px;
+        margin-bottom: 75px;
+    }
+
+    .AllOfOtherServices{
+        font-size: 60px;
+        height: 1000px;
+    }
+
+}
