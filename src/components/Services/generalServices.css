@@ -40,3 +40,72 @@
 .DetailOfEachService{
     font-size: 17px;
 }
+
+
+
+@media screen and (min-width: 2500px) and (max-width: 3500px){
+
+    .GeneralServicesTitle{
+        font-size: 70px;
+    }
+
+    #MainDivForGeneralServices{
+        height: 1000px;
+    }
+
+    .DivHoldingListOfServices{
+        height: 700px;
+        width: 2500px;
+        max-width: 2500px;
+    }
+
+    .EachService{
+        width: 660px;
+    }
+
+    .EachService > img {
+        width: 90px;
+    }
+
+    .TileOfEachService{
+        font-size: 45px;
+    }
+
+    .DetailOfEachService{
+        font-size: 26px;
+    }
+}
+
+
+@media screen and (min-width: 3501px){
+
+    .GeneralServicesTitle{
+        font-size: 110px;
+    }
+
+    #MainDivForGeneralServices{
+        height: 1600px;
+    }
+
+    .DivHoldingListOfServices{
+        height: 1200px;
+        width: 3200px;
+        max-width: 3200px;
+    }
+
+    .EachService{
+        width: 923px;
+    }
+
+    .EachService > img {
+        width: 150px;
+    }
+
+    .TileOfEachService{
+        font-size: 75px;
+    }
+
+    .DetailOfEachService{
+        font-size: 46px;
+    }
+}

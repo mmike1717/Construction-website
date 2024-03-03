@@ -16,7 +16,7 @@ export default function GeneralServices (){
                 <div className="DivHoldingListOfServices">
                     <div className="EachService">
                         <img src={screwDriverWrench}></img>
-                        <div>Basement Renovations</div>
+                        <div className='TileOfEachService'>Basement Renovations</div>
                         <div className='DetailOfEachService'> Providing an array of options for home improvements,
                               including remodeling, additions, and renovations.
                         </div>
@@ -24,7 +24,7 @@ export default function GeneralServices (){
 
                     <div className="EachService">
                         <img src={shower}></img>
-                        <div>Bathroom Remodeling</div>
+                        <div className='TileOfEachService'>Bathroom Remodeling</div>
                         <div className='DetailOfEachService'>Attention to detail and superior craftsmanship for your
                             bathroom remodeling and renovation projects.
                         </div>
@@ -32,13 +32,13 @@ export default function GeneralServices (){
 
                     <div className="EachService">
                         <img src={wrench}></img>
-                        <div>Kitchen Remodeling</div>
+                        <div className='TileOfEachService'>Kitchen Remodeling</div>
                         <div className='DetailOfEachService'>Capable of transforming your kitchen into a stunning and functional space through remodeling.</div>
                     </div>
 
                     <div className="EachService">
                         <img src={chimneyHouse}></img>
-                        <div>Siding Repairs</div>
+                        <div className='TileOfEachService'>Siding Repairs</div>
                         <div className='DetailOfEachService'>Our range of siding services includes new installations, repairs, and replacements,
                             tailored to suit your needs.
                         </div>
@@ -46,7 +46,7 @@ export default function GeneralServices (){
 
                     <div className="EachService">
                         <img src={hammer}></img>
-                        <div>Deck Remodeling</div>
+                        <div className='TileOfEachService'>Deck Remodeling</div>
                         <div className='DetailOfEachService'>We take pride in providing cost-effective and high-quality deck remodeling services.</div>
                     </div>
                 </div>
