@@ -40,3 +40,18 @@
     text-decoration: underline;
     color: white;
 }
+
+
+@media screen and (min-width: 300px) {
+    #MainNavBar{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+
+    #NavCenterDiv{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
