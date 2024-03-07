@@ -386,4 +386,41 @@
         padding: 18px 20px;
         font-size: 21px;
     }
+
+
+
+
+
+    #MainDivForWelcomeSection{
+        display: flex;
+        height: 974px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+    .WelcomeDescription{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        flex-direction: column;
+    }
+
+    .WelcomeDescription > h1 {
+        font-size: 40px;
+    }
+
+    .IntroParagraphs{
+        display: flex;
+        text-align: center;
+        font-size: medium;
+    }
+
+    .DivHoldingWelPic{
+        width: 100%;
+    }
+    .WelcomePicture{
+        width: 100%;
+    }
 }
