@@ -498,4 +498,9 @@
         font-size: large;
         padding: 0 20px;
     }
+
+    .carousel{
+        width: 100%;
+        padding: 0;
+    }
 }
