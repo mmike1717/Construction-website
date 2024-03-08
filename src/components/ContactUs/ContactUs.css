@@ -155,3 +155,63 @@
         margin-right: 40px;
     }
 }
+
+
+
+@media screen and (min-width: 300px) and (max-width:1000px) {
+    #MainDivForContactUs{
+        font-size: large;
+        height: 400px;
+    }
+
+    .CenterDivForEstimate{
+        top: 15%;
+        left: 12%;
+        height: 70%;
+        width: 80%;
+    }
+
+    .CenterDivPic{
+        top: 0%;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .FreeEstimateTitle{
+        top: 15%;
+        left: 0%;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .VisionARealityTitle{
+        top: 40%;
+        left: 0%;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .MainDivForContactUsInfo{
+        top: 52%;
+        left: 0%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 15px;
+        align-items: center;
+    }
+
+    .DivHoldingIconAndInfo{
+        justify-content: center;
+        width: 184px;
+    }
+
+
+    .IconsForContactUs{
+        width: 17px;
+        filter: invert(1);
+        margin-right: 10px;
+    }
+
+}
