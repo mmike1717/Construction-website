@@ -204,7 +204,7 @@
 
     .DivHoldingIconAndInfo{
         justify-content: center;
-        width: 184px;
+        width: 192px;
     }
 
 
@@ -212,6 +212,10 @@
         width: 17px;
         filter: invert(1);
         margin-right: 10px;
+    }
+
+    .IconsForContactUs1{
+        width: 19px;
     }
 
 }
