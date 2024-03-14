@@ -61,3 +61,34 @@
     row-gap: 20px;
     font-size: 17px;
 }
+
+
+@media screen and (min-width:300px) and (max-width:800px) {
+    #AboutTeamMainDiv{
+        height: 1050px;
+        flex-direction: column;
+    }
+
+    .TeamHeadingAndDescription{
+        width: 100%;
+    }
+
+    .TeamHeadingAndDescription > h1{
+        justify-content: center;
+    }
+
+    .TeamDescriptionPara{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        font-size: 17px;
+        padding: 10px;
+    }
+
+    #AboutTeamMainDiv > img{
+        width: 100%;
+        height: 58%;
+        max-width: 800px;
+        min-width: 300px;
+    }
+}
