@@ -112,7 +112,9 @@
 
 
 
-@media screen and (min-width: 300px) and (max-width: 1000px){
-
+@media screen and (min-width: 300px) and (max-width: 800px){
+    #MainDivForGeneralServices{
+        height: 1100px;
+    }
 
 }
