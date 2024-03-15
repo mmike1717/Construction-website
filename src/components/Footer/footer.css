@@ -110,9 +110,11 @@
         justify-content: center;
         border-right-style: hidden;
         border-left: hidden;
+        border-bottom-style: ridge;
+        border-top: ridge;
     }
 
     .DivHoldingIconInfo{
-        width: 52%;
+        width: 261px;
     }
 }
