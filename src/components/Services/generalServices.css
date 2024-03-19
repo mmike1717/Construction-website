@@ -112,9 +112,14 @@
 
 
 
-@media screen and (min-width: 300px) and (max-width: 800px){
+@media screen and (min-width: 200px) and (max-width: 800px){
     #MainDivForGeneralServices{
         height: 1100px;
+    }
+
+    .DivHoldingListOfServices{
+        width: 100%;
+        max-width: 800px;
     }
 
 }
