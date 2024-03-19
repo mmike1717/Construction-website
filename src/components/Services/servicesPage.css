@@ -90,3 +90,10 @@
     }
 
 }
+
+
+@media screen and (min-width: 200px) and (max-width: 800px){
+    .AllOfOtherServices{
+        height: 790px;
+    }
+}
