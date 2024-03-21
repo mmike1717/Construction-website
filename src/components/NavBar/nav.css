@@ -45,7 +45,7 @@
 @media screen and (min-width: 200px) and (max-width: 800px) {
     #MainNavBar{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         height: 100px;
     }
 
