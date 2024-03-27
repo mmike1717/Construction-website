@@ -9,7 +9,6 @@ import './aboutUs.css'
 
 export default function AboutUs(){
 
-
     return (
         <>
             <div id='MainDivForAboutUS'>
@@ -25,7 +24,6 @@ export default function AboutUs(){
                 <ContactUs />
 
                 <Footer />
-
 
             </div>
         </>
