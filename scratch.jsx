@@ -1,5 +1,7 @@
 // import React, { useState, useEffect } from "react";
 
+//Another code for carousel
+
 // const Carousel = () => {
 //   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
