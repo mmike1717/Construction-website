@@ -1,6 +1,6 @@
 
 import './ContactUs.css'
-import Kitchen5 from '../../assets/kitchen05.jpg'
+// import Kitchen5 from '../../assets/kitchen05.jpg'
 import designPic from '../../assets/interior-design.jpg'
 import phone from '../../assets/phone.svg'
 import email from '../../assets/envelope.svg'
